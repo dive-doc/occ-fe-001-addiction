@@ -4,8 +4,7 @@ import React from 'react'
 const Intro = () => {
   return (
     <main>
-      <Input />
-      123123
+      <Input style={{ border: '1px solid red' }} />
     </main>
   )
 }
