@@ -1,12 +1,10 @@
-import { Input } from '@mui/material'
+import { Input, Stack } from '@mui/material'
 import React from 'react'
 
-const Intro = () => {
-  return (
-    <main>
-      <Input style={{ border: '1px solid red' }} />
-    </main>
-  )
-}
+const Intro = () => (
+  <Stack className="w-full row">
+    <Input className="bg-white" style={{ border: '1px solid red' }} />
+  </Stack>
+)
 
 export default Intro
