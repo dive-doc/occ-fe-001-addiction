@@ -1,20 +1,20 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
-import Footer from '@/components/Footer'
-import Header from '../components/Header'
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import Footer from '@/components/Footer';
+import Header from '../components/Header';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: '너BTI',
   description: '내가 아닌 내 친구의 MBTI를 알아보자',
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="ko">
@@ -29,5 +29,5 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
-  )
+  );
 }
